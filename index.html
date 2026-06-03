@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MicroWeb</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+<aside class="sidebar" id="sidebar">
+<h2>MicroWeb</h2>
+<ul>
+<li><a href="#inicio">🏠 Inicio</a></li>
+<li><a href="#galeria">📷 Fotos</a></li>
+<li><a href="#drive">📁 Google Drive</a></li>
+<li><a href="#social">🌐 Redes Sociales</a></li>
+<li><a href="#youtube">▶ YouTube</a></li>
+<li><a href="#calendar">📅 Calendario</a></li>
+</ul>
+</aside>
+<main class="content">
+<section id="inicio" class="hero"><h1>Bienvenido a MicroWeb</h1><p>Tu portal digital personal.</p></section>
+<section id="galeria"><h2>Galería de Fotos</h2><div class="gallery">
+<img src="https://picsum.photos/300/200?1"><img src="https://picsum.photos/300/200?2"><img src="https://picsum.photos/300/200?3">
+</div></section>
+<section id="drive"><h2>Google Drive</h2><a class="card-link" href="https://drive.google.com" target="_blank">Abrir Google Drive</a></section>
+<section id="social"><h2>Redes Sociales</h2>
+<div class="cards">
+<a class="card-link" href="https://facebook.com" target="_blank">Facebook</a>
+<a class="card-link" href="https://instagram.com" target="_blank">Instagram</a>
+</div></section>
+<section id="youtube"><h2>YouTube</h2><iframe src="https://www.youtube.com/embed/jNQXAC9IVRw"></iframe></section>
+<section id="calendar"><h2>Google Calendar</h2><iframe src="https://calendar.google.com/calendar/embed?src=es.peruvian%23holiday%40group.v.calendar.google.com"></iframe></section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
