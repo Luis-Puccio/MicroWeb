@@ -18,3 +18,4 @@ input,textarea{padding:12px;border-radius:8px}
 .social-float a:hover{transform:scale(1.1)}
 .social-btn{width:55px;height:55px;background: #1697e5;border:3px solid #ffffff;border-radius:50%;display:flex;justify-content:center;align-items:center;color:white;font-size:24px;text-decoration:none;box-shadow:0 4px 10px rgba(0,0,0,.25);transition:all .3s ease}
 .social-btn:hover{transform:scale(1:1)}
+.circle-btn{width:60px;height:60px;border-radius:50%;background:#0d89da; border:3px solid white; color:white; display:flex;justify-content:center;align-items:center;text_decoration:none;font-size:24px;box-shadow:0 4px 10px rgba(0,0,0,.25}
